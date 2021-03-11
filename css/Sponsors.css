@@ -1,0 +1,91 @@
+/*-------------Img-------------*/
+  .img-responsive
+ {
+  width: 98%;
+  opacity: 0.5;
+  margin: 130px 5px 140px 0;
+}
+/*-----------Footer------------*/
+footer
+{
+  width: 100%;
+  height: 30px;
+  background: #272727;
+  position: fixed;
+  bottom: 0;
+}
+footer p
+{
+  padding-bottom: 5px;  
+  padding-top: 5px;
+  color: #fff;
+  text-align: center;
+  background: url(../img/Todo/gg.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+}
+/*------------Botón-------------*/
+.B
+{
+  text-align: center;
+  margin: 100px 25px 0;
+  height: 30px;
+}
+#b
+{
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+}
+/*------------Text-------------*/
+.S
+{
+  color: #FF0000;
+  font-family:Courier New;
+  font-size: 2rem;
+  text-align: center;
+  margin: 100px 5px 10px;
+  background: url(../img/Todo/pe.png);
+  background-size:30%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*-----------Hoja-------------*/
+body , html{
+  font-family: sans-serif;
+  background-image: linear-gradient(#f1f3f4, #c6dfea);  
+}
+
+/*------------------Loader---------------------*/
+#preloader
+{
+    transition-delay: 5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 1000;
+  }
+
+#loader
+{
+    width: 100%;
+    height: 100%;
+    margin-right: 100px;
+    position: absolute;
+    top: 35%;
+    background: url(../img/loader.gif)no-repeat center 0; 
+}
+#loader p
+{   
+    font-family: Copperplate Gothic;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 20px;
+}

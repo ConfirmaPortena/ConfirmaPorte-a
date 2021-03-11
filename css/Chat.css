@@ -1,0 +1,19 @@
+.logo img 
+{
+  width: 50%;
+  height: auto;
+  position: relative;
+  margin: 0.5rem auto;
+}
+.menu li
+{
+  padding: 20px 100px;
+  float: left;
+ } 
+ header
+ {
+  width: 100%;
+  height: 90px;
+  border-bottom: solid 2px #ccc;
+  background: #efefef;
+ }

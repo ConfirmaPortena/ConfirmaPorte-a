@@ -1,0 +1,126 @@
+
+/*------------------Hoja---------------------*/
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+/*------------------Parrafos---------------------*/
+.B
+{
+	list-style: none;
+	margin: 5px;
+}
+.P
+{
+	font-family: Comic Sans MS;
+	font-size: 15px;	
+	margin:0 5px;
+	text-align: center;
+	background: #92a6a2;
+	border-radius: 10px;
+	padding: 10px 5px;
+	margin-right: 7px;
+}
+section
+{
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.Titulo
+{
+	font-family: Comic Sans MS;
+  	font-size: 30px;
+  	font-weight: bold;
+  	background-color: #92a6a2;
+  	text-align: center;
+  	border-radius: 10px;
+  	margin:0 10px;
+}
+/*------------------Parallax---------------------*/
+.parallax
+{
+	background: #fff fixed no-repeat 50% 50%;
+	background-size:cover; 
+}
+#ñ /*presentación*/
+{
+	background-image: url(../img/Parallax/ñ.jpg);
+}
+#S1	/*Carlo*/
+{
+	background-image: url(../img/Parallax/ca.png);
+}
+#S2	/*Alex*/	
+{
+	background-image: url(../img/Parallax/##.png);
+}
+#S3	/*Mike*/
+{
+	background-image: url(../img/Parallax/##.png);
+}
+#S4	/*Pedro*/
+{
+	background-image: url(../img/Parallax/##.png);
+}
+#S5	/*Daniel*/
+{
+	background-image: url(../img/Parallax/da.png);
+}
+#S6	/*Juan*/
+{
+	background-image: url(../img/Parallax/Ju.png);
+}
+#S7	/*Andres*/
+{
+	background-image: url(../img/Parallax/An.png);
+}
+#S8	/*Erick*/
+{
+	background-image: url(../img/Parallax/e.jpg);
+}
+#S9	/*Arturo*/
+{
+	background-image: url(../img/Parallax/Ar.png);
+}
+/*------------------Volver---------------------*/
+.F
+{	
+	margin-top: 660px;
+	text-align: center;
+}
+/*------------------Loader---------------------*/
+#preloader
+{
+    transition-delay: 5s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 1000;
+  }
+
+#loader
+{
+    width: 100%;
+    height: 100%;
+    margin-right: 100px;
+    position: absolute;
+    top: 35%;
+    background: url(../img/c.gif)no-repeat center 0; 
+}
+#loader p
+{   
+    font-family: Copperplate Gothic;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 20px;
+}
